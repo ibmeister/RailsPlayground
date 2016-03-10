@@ -1,8 +1,7 @@
 <div class="header">
   <div class="container">
- <a href="default.asp">
-  <img src="http://icons.iconarchive.com/icons/johanchalibert/mac-osx-yosemite/1024/messages-icon.png" alt="Message icon"
-</a> 
+    <img src="http://icons.iconarchive.com/icons/johanchalibert/mac-osx-yosemite/1024/messages-icon.png">
+    <h1>Messenger</h1>
   </div>
 </div>
 
@@ -16,7 +15,7 @@
     <%= f.text_area :content %> 
   </div> 
   <div class="actions"> 
-    <%= f.submit "Create" %> 
+    <%= f.submit "Post Message" %> 
   </div> 
  <% end %>
 
