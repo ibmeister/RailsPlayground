@@ -1,14 +1,14 @@
 <div class="header">
   <div class="container">
     <img src="http://icons.iconarchive.com/icons/johanchalibert/mac-osx-yosemite/1024/messages-icon.png">
-    <h1>Messenger</h1>
+    <h1>"Messenger"</h1>
   </div>
 </div>
 
 <div class="messages">
   <div class="container">
   
-    <!-- Your code here -->
+ 
     <% @messages.each do |message| %>
     <div class="message">
       <p class="content"><%=message.content %></p>

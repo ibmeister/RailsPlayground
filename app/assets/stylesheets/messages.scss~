@@ -38,7 +38,7 @@ body {
 
 .messages a,
 .create .actions input {
-  background-color: #f2580b;
+  background-color: #808080;
   border: none;
   color: #fff;
   cursor: pointer;
@@ -51,7 +51,7 @@ body {
 }
 
 .message {
-  background-color: #a9a9a9;
+  background-color: #fff;
   font-weight: 300;
   padding: 16px;
   margin-bottom: 10px;
