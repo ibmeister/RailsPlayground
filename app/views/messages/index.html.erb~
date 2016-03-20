@@ -1,9 +1,10 @@
-<div class="header">
+<a href="/"><div class="header">
   <div class="container">
     <img src="http://icons.iconarchive.com/icons/johanchalibert/mac-osx-yosemite/1024/messages-icon.png">
     <h1>Messenger</h1>
   </div>
 </div>
+</a>
 
 <div class="messages">
   <div class="container">
