@@ -1,4 +1,4 @@
-<a href=root_path><div class="header">
+<a href="/"><div class="header">
   <h11>Sign up</h11>
 
   <div class="container">
@@ -16,7 +16,7 @@
       <%= f.text_field :last_name, :placeholder => "Last name" %>
       <%= f.email_field :email, :placeholder => "Email" %>
       <%= f.password_field :password, :placeholder => "Password" %>
-      <%= f.submit "Create an account", class: "btn-submit" %>
+      <%= f.submit "Create an account"%>
     <% end %>
 
   

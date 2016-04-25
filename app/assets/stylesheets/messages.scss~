@@ -105,7 +105,7 @@ form textarea {
   font-weight: 300;
   margin: 20px 0 10px;
   min-height: 100px;
-  padding: 16px;
+  padding: 1px;
   transition: border 0.5s;
   width: calc(100% - 32px);
 }

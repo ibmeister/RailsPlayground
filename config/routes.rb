@@ -8,6 +8,9 @@ Rails.application.routes.draw do
   post 'messages' => 'messages#create'
 
   get 'signup' => 'users#new'
+  get 'login'  => 'sessions#new'
+  post 'login' => 'sessions#create'
+  delete 'logout' => 'sessions#destroy'
   resource :users
   
   # The priority is based upon order of creation: first created -> highest priority.
